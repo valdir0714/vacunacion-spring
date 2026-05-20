@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String inicio() {
-        return "redirect:/pacientes";
+        return "index";
     }
 
     @GetMapping("/index")
